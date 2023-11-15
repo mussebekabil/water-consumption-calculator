@@ -4,7 +4,8 @@
 
 This service calculates the amount of water consumption for a given day. CSV formatted time series data is provided. This file contains two columns: timestamps, and respective water meter values as liters. The service parses this data and aggregates the data into a list of net hourly consumptions per each day.
 
-> [!NOTE] This solution doesn't consider Daylight Saving Time (DST)
+> [!NOTE]
+> This solution doesn't consider Daylight Saving Time (DST)
 
 ## Domain Driven Design approach for the solution
 
